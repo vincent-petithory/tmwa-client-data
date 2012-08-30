@@ -3041,6 +3041,88 @@
         <sprite gender="male">equipment/chest/fine-dress-male.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
         <sprite gender="female">equipment/chest/fine-dress-female.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
     </item>
+    <item id="871"
+        image="equipment/head/snakeskin-helmet.png"
+        name="Snakeskin Helmet"
+        description="A hard helmet made of thick snake skin."
+        effect="M. Attack -10"
+        defense="10"
+        type="equip-head"
+        weight="75">
+        <sprite>equipment/head/snakeskin-helmet.xml</sprite>
+    </item>
+    <item id="872"
+        image="equipment/head/snakeskin-mask.png"
+        name="Snakeskin Mask"
+        description="A piece of snake skin in which you can place your head."
+        effect="M. Attack -12"
+        defense="6"
+        type="equip-head"
+        weight="45">
+        <sprite>equipment/head/snakeskin-mask.xml</sprite>
+    </item>
+    <item id="873"
+        image="equipment/shield/snakeskin.png"
+        name="Snakeskin Shield"
+        description="A shield made of really thick snake skin."
+        effect="M. Attack -60"
+        defense="16"
+        type="equip-shield"
+        weight="550"/>
+    <item id="874"
+        image="equipment/legs/snakeskinpants.png"
+        name="Snakeskin Pants"
+        description="Pants made of a very thick snake skin."
+        effect="M. Attack -25"
+        defense="5"
+        type="equip-torso"
+        weight="35">
+        <sprite gender="male">equipment/legs/snakeskinpants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/snakeskinpants-female.xml</sprite>
+    </item>
+    <item id="875"
+        image="equipment/hands/snakeskingloves.png"
+        name="Snakeskin Gloves"
+        description="A pair of gloves made of very thick snake skin."
+        effect="M. Attack -5"
+        defense="5"
+        type="equip-arms"
+        weight="25">
+        <sprite gender="male">equipment/hands/snakeskingloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/snakeskingloves-female.xml</sprite>
+    </item>
+    <item id="876"
+        image="equipment/feet/snakeskinboots.png"
+        name="Snakeskin Boots"
+        description="A pair of boots made of a very thick snake skin."
+        effect="M. Attack -5"
+        defense="5"
+        type="equip-feet"
+        weight="30">
+        <sprite gender="male">equipment/feet/snakeskinboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/snakeskinboots-female.xml</sprite>
+    </item>
+    <item id="877"
+        image="equipment/chest/snakeskinplate.png"
+        name="Snakeskin Plate"
+        description="A chest plate of a very thick snake skin."
+        effect="M. Attack -40"
+        defense="22"
+        type="equip-torso"
+        weight="655">
+        <sprite gender="male">equipment/chest/snakeskinplate-male.xml</sprite>
+        <sprite gender="female">equipment/chest/snakeskinplate-female.xml</sprite>
+    </item>
+    <!--<item id="878"
+        image="equipment/weapon/mace-threeheads.png"
+        name="Three Heads"
+        description="Three maces made of a hard snake skin."
+        effect="Damage +100"
+        type="equip-1hand"
+        weapon-type="mace"
+        attack-action="attack"
+        attack-range="1"
+        weight="100"/>-->
 
 
 
