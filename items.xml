@@ -3431,6 +3431,79 @@
         <sprite gender="male">equipment/legs/shorts-male.xml|#95887F,E0D1C9</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#95887F,E0D1C9</sprite>
     </item>
+    <item id="882"
+        image="equipment/head/magicgmtophat.png"
+        name="Magic GM Top Hat"
+        description="Probably not the best way to stay hidden."
+        effect="M. Attack +20 / HP +32500 / Flee -200"
+        type="equip-head"
+        defense="1"
+        weight="30">
+        <sprite>equipment/head/magicgmtophat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="883"
+        image="equipment/chest/warlordplate.png|W:#212121,464646,979797"
+        name="Obsidian Warlord Plate"
+        description="This warlord plate has been hardened with obsidian."
+        effect="M. Attack -170"
+        type="equip-torso"
+        defense="27"
+        weight="2600">
+        <sprite gender="male">equipment/chest/warlordplate-male.xml|#212121,464646,979797</sprite>
+        <sprite gender="female">equipment/chest/warlordplate-female.xml|#212121,464646,979797</sprite>
+    </item>
+    <item id="884"
+        image="equipment/head/warlordhelm-gold.png"
+        name="Golden Warlord Helmet"
+        description="A decorative helmet, in gold."
+        effect="M. Attack -72"
+        type="equip-head"
+        defense="19"
+        weight="2400">
+        <sprite>equipment/head/warlordhelm-gold.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="885"
+        image="equipment/charms/lapis-necklace.png"
+        name="Lapis Necklace"
+        description="A cute necklace with a blue jewel."
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/charms/lapis-necklace.xml</sprite>
+    </item>
+    <item id="886"
+        image="equipment/chest/assassin-robe.png|W:#111111,222222,333333,444444,555555;R:#0E0E0E"
+        name="Assassin Robe"
+        description="The perfect robe to relax at home after a murder."
+        effect="M. Attack +5"
+        type="equip-torso"
+        defense="5"
+        agi="1"
+        weight="15">
+        <sprite gender="male">equipment/chest/assassin-robe-male.xml|#111111,222222,333333,444444,555555;#010101</sprite>
+        <sprite gender="female">equipment/chest/assassin-robe-female.xml|#111111,222222,333333,444444,555555;#010101</sprite>
+    </item>
+    <item id="887"
+        image="equipment/head/evil-crown.png"
+        name="Evil Crown"
+        description="A crown for the evil ruler."
+        type="equip-head"
+        defense="4"
+        weight="240">
+        <sprite>equipment/head/evil-crown.xml</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
